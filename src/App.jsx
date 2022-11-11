@@ -64,7 +64,7 @@ function App() {
         <p className={styles.p}>{page} of {data.totalPage}</p>
         <button onClick={nextPage} className={styles.buttons}>Next</button>
       </div>
-      {loading ? <div className={styles.load}>Loading...</div> : <HitList hits={data.hits} />}
+      <HitList hits={data.hits} />
     </div>
   );
 }
