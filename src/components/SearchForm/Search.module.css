@@ -1,0 +1,23 @@
+
+.input {
+    width: 100%;
+    border-bottom: 2px solid #324d67;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #f1f5f8;
+    padding: 16px;
+}
+.h2 {
+    text-transform: capitalize;
+    margin-top: 40px;
+    font-size: 40px;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: #102a42;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.span {
+    border-bottom: 2px solid #324d67;
+}
